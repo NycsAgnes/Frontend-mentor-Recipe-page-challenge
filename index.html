@@ -66,7 +66,7 @@
       color:hsl(30, 10%, 34%);
       line-height: 150%;
     }
-    span, #caption{
+    span, .caption{
       color:hsl(30, 10%, 34%);
       font-weight: 450;
       line-height: 180%;
@@ -171,11 +171,11 @@
     li{
       padding-bottom: 10px;
     }
-    #time-box{
+    .time-box-list{
       display: flex;
       align-items: center;
     }
-    #time-box:before {
+    .time-box-list:before {
       content: "\2022";
       margin-right: 1em;
     }
@@ -187,7 +187,7 @@
       width: 100%;
       align-items: center;
     }
-    #caption{
+    .caption{
       position: relative;
       color: hsl(30, 10%, 34%);
     }
@@ -223,9 +223,9 @@
 
       <div class="time-box"><h3>Preparation time</h3>
         <ul>
-          <li id="time-box"><span><b>Total:</b> Approximately 10 minutes</span></li>
-          <li id="time-box"><span><b>Preparation:</b> 5 minutes</span></li>
-          <li id="time-box"><span><b>Cooking:</b> 5 minutes</span></li>
+          <li class="time-box-list"><span><b>Total:</b> Approximately 10 minutes</span></li>
+          <li class="time-box-list"><span><b>Preparation:</b> 5 minutes</span></li>
+          <li class="time-box-list"><span><b>Cooking:</b> 5 minutes</span></li>
         </ul>
       </div>
       <div class="ingredients">
@@ -261,22 +261,22 @@
         <table>
           <tr>
             <td></td>
-            <td id="caption">Calories</td>
+            <td class="caption">Calories</td>
             <td><b>277kcal</b></td>
           </tr>
           <tr>
             <td></td>
-            <td id="caption">Carbs</td>
+            <td class="caption">Carbs</td>
             <td><b>0g</b></td>
           </tr>
           <tr>
             <td></td>
-            <td id="caption">Protein</td>
+            <td class="caption">Protein</td>
             <td><b>20g</b></td>
           </tr>
           <tr>
             <td></td>
-            <td id="caption">Fat</td>
+            <td class="caption">Fat</td>
             <td><b>22g</b></td>
           </tr>
         </table>
